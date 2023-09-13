@@ -15,14 +15,13 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  wbwr,
+  ayoba,
+  lc,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +117,7 @@ const experiences = [
   {
     title: "Micro App Developer",
     company_name: "Ayoba",
-    icon: tesla,
+    icon: ayoba,
     iconBg: "#E6DEDD",
     date: "Feb 2021 - June 2022",
     points: [
@@ -131,7 +130,7 @@ const experiences = [
   {
     title: "Intern Web Developer",
     company_name: "Life Choices",
-    icon: shopify,
+    icon: lc,
     iconBg: "#383E56",
     date: "July 2021 - March 2022",
     points: [
@@ -144,7 +143,7 @@ const experiences = [
   {
     title: "Intermediate Eccomerce Developer",
     company_name: "WBWR",
-    icon: meta,
+    icon: wbwr,
     iconBg: "#E6DEDD",
     date: "May 2022 - Present",
     points: [
