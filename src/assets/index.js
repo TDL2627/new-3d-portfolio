@@ -29,6 +29,7 @@ import codespace from "./company/codespace.jpeg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import code from "./code.png";
 
 export {
   logo,
@@ -58,5 +59,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  codespace
+  codespace,
+  code
 };
