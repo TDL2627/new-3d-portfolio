@@ -22,6 +22,7 @@ import {
   wbwr,
   ayoba,
   lc,
+  codespace,
 } from "../assets";
 
 export const navLinks = [
@@ -114,6 +115,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Full Stack Web Developer Learner",
+    company_name: "Code Space",
+    icon: codespace,
+    iconBg: "#383E56",
+    date: "Feb 2020 - July 2020",
+    points: [
+      "Where I was first introduced to coding",
+      "Used PHP,Bootstrap,HTML,MySQL, and CSS",
+      "Built mini projects to help improve skill.",
+    ],
+  },
   {
     title: "Micro App Developer",
     company_name: "Ayoba",

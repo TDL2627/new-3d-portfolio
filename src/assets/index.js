@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 import ayoba from "./company/ayoba.png";
 import lc from "./company/lifechoices.png";
 import wbwr from "./company/wbwr.jpeg";
+import codespace from "./company/codespace.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -57,4 +58,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  codespace
 };
