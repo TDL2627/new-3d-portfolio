@@ -123,7 +123,7 @@ const experiences = [
     date: "Feb 2020 - July 2020",
     points: [
       "Where I was first introduced to coding",
-      "Used PHP,Bootstrap,HTML,MySQL, and CSS",
+      "Used PHP, Bootstrap, HTML, MySQL, and CSS",
       "Built mini projects to help improve skill.",
     ],
   },

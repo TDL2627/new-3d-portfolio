@@ -9,8 +9,8 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+    <div
+      data-aos="flip-left"
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
@@ -35,20 +35,20 @@ const ServiceCard = ({ index, title, icon }) => (
           {title}
         </h3>
       </div>
-    </motion.div>
+    </div>
   </Tilt>
 );
 
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div data-aos="zoom-in">
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+      </div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+      <div
+        data-aos="fade-right"
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am a smart, hardworking person and very eager to learn. I love solving
@@ -59,7 +59,7 @@ const About = () => {
         tertiary institutions and multiple work environments. I find coding very
         interesting and believe it is my super power. I am well experienced in
         coding and able to work well with others.
-      </motion.p>
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

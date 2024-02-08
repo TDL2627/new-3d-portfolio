@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="hidden lg:block h-full	">
         <ComputersCanvas />
       </div>
-      <div className="w-full lg:hidden absolute bottom-[40%]  ">
+      <div className="w-full lg:hidden absolute bottom-[20%]  ">
         <div  className="w-full flex justify-center flex-col text-center">
           {" "}
           <img data-aos="fade-right"  src={metame} className="mb-10 md:mt-20 md:h-[400px] md:w-[400px] w-full "/>
@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute bottom-5 lg:bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
