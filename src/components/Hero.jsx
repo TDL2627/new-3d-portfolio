@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
-
+import { metame } from "../assets";
 import { ComputersCanvas } from "./canvas";
-import { codespace } from "../assets";
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto `}>
       <div
         className={`absolute hidden lg:flex inset-0 lg:top-[120px] top-20   max-w-7xl mx-auto px-4  flex-row items-start gap-5`}
       >
@@ -18,17 +17,26 @@ const Hero = () => {
           </h2>
           <p className={` mt-4 text-white-100`}>
             I am a full stack developer
-            <br className="sm:block hidden" />I create websites, web apps and native
-            applications.
+            <br className="sm:block hidden" />I create websites, web apps and
+            native applications.
           </p>
         </div>
       </div>
-      <div className="hidden md:block h-full	">
+      <div className="hidden lg:block h-full	">
         <ComputersCanvas />
       </div>
-      <div className="w-full lg:hidden absolute xs:bottom-10 bottom-32">
-        <p className="text-white">Aye</p>
-        <image src={codespace} alt="kannemeyer" className="h-full w-[200px]" />
+      <div className="w-full lg:hidden absolute bottom-[40%]  ">
+        <div  className="w-full flex justify-center flex-col text-center">
+          {" "}
+          <img data-aos="fade-right"  src={metame} className="mb-10 md:mt-20 md:h-[400px] md:w-[400px] w-full "/>
+          <h2 data-aos="fade-left" className={` text-white lg:text-7xl text-2xl font-bold`}>
+            Hi, I'm <span className="text-blue-300 ">Kannemeyer</span>
+          </h2>
+          <p data-aos="fade-up" className={` mt-4 text-white-100 mx-2`}>
+            I am a full stack developer that create websites, web apps and native
+            applications.
+          </p>
+        </div>
       </div>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
