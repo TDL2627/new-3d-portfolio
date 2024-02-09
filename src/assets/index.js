@@ -24,14 +24,20 @@ import threejs from "./tech/threejs.svg";
 import ayoba from "./company/ayoba.png";
 import lc from "./company/lifechoices.png";
 import wbwr from "./company/wbwr.jpeg";
-import codespace from "./company/codespace.jpeg"
+import codespace from "./company/codespace.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import code from "./code.png";
-import metame from "./metame.png"
+import metame from "./metame.png";
+import otb from "./projects/otb.png";
+import smallshop from "./projects/smallshop.png";
+import unitech from "./projects/unitech.png";
 export {
+  otb,
+  smallshop,
+  unitech,
   logo,
   backend,
   creator,
@@ -61,5 +67,5 @@ export {
   tripguide,
   codespace,
   code,
-  metame
+  metame,
 };

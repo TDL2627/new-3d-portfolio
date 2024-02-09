@@ -23,6 +23,9 @@ import {
   ayoba,
   lc,
   codespace,
+  unitech,
+  smallshop,
+  otb,
 } from "../assets";
 
 export const navLinks = [
@@ -215,20 +218,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: unitech,
     source_code_link: "https://github.com/TDL2627/uni-tech",
   },
   {
-    name: "Tuck Shop Finder",
+    name: "Small Shop",
     description:
-      "Web application that finds your nearest local store.",
+      "Web application that manages sales and stocks from a owner and teller point of view.",
     tags: [
       {
-        name: "react",
+        name: "typeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mapbox",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -236,7 +239,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: smallshop,
     source_code_link: "https://github.com/TDL2627/tuckshop-finder",
   },
   {
@@ -257,7 +260,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: otb,
     source_code_link: "https://github.com/Mullins69/OTB-TEMP",
   },
 ];
