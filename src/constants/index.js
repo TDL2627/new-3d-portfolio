@@ -200,14 +200,14 @@ const projects = [
   {
     name: "Unitech",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A minimalist static website for my business which rents out fridges for univeristy students",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "next js",
         color: "green-text-gradient",
       },
       {
@@ -216,49 +216,49 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/TDL2627/uni-tech",
   },
   {
     name: "Tuck Shop Finder",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that finds your nearest local store.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mapbox",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/TDL2627/tuckshop-finder",
   },
   {
-    name: "Small Shop",
+    name: "OTB",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A collabrotive advanced social media platform which contains many advanced features such as swipe, live and many more.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "node js",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Mullins69/OTB-TEMP",
   },
 ];
 
