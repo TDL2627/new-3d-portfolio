@@ -26,13 +26,13 @@ const Hero = () => {
         <ComputersCanvas />
       </div>
       <div className="w-full lg:hidden absolute bottom-[20%]  ">
-        <div  className="w-full flex justify-center flex-col text-center">
+        <div  className="w-full flex justify-center flex-col text-start">
           {" "}
           <img data-aos="fade-right"  src={metame} className="mb-10 md:mt-20 md:h-[400px] md:w-[400px] w-full "/>
-          <h2 data-aos="fade-left" className={` text-white lg:text-7xl text-2xl font-bold`}>
+          <h2 data-aos="fade-left" className={` text-white ml-4 lg:text-7xl text-2xl font-bold`}>
             Hi, I'm <span className="text-blue-300 ">Kannemeyer</span>
           </h2>
-          <p data-aos="fade-up" className={` mt-4 text-white-100 mx-2`}>
+          <p data-aos="fade-up" className={` mt-4 ml-4 text-white-100 mx-2`}>
             I am a full stack developer that create websites, web apps and native
             applications.
           </p>
