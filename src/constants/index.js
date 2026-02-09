@@ -25,6 +25,7 @@ import {
   codespace,
   unitech,
   smallshop,
+  rokkit,
   otb,
 } from "../assets";
 
@@ -161,13 +162,25 @@ const experiences = [
     company_name: "WBWR",
     icon: wbwr,
     iconBg: "#E6DEDD",
-    date: "May 2022 - Present",
+    date: "May 2022 - April 2024",
     points: [
       "Developing and maintaining web applications using React.js, Shopify and other related technologies.",
       "Currently working on major brands such Under Armour, Crocs, Vans, Birkenstock, Avalanche and many more. ",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+    {
+    title: "Frontend Developer",
+    company_name: "Rokkit200",
+    icon: rokkit,
+    iconBg: "#383E56",
+    date: "May 2024 - May 2025",
+    points: [
+      "Building custom forms and resuable components using vanilla JavaScript and React JS.",
+      "Creating and updating the company website using React JS and Tailwind CSS.",
+      "Participating in fully remote code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];

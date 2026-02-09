@@ -25,6 +25,7 @@ import ayoba from "./company/ayoba.png";
 import lc from "./company/lifechoices.png";
 import wbwr from "./company/wbwr.jpeg";
 import codespace from "./company/codespace.jpeg";
+import rokkit from "./company/rokkit.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -35,6 +36,7 @@ import otb from "./projects/otb.png";
 import smallshop from "./projects/smallshop.png";
 import unitech from "./projects/unitech.png";
 export {
+  rokkit,
   otb,
   smallshop,
   unitech,
