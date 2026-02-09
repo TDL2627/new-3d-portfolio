@@ -1,4 +1,5 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import FloatingWhatsAppButton from './FloatingWhatsAppButton';
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -23,5 +24,6 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  FloatingWhatsAppButton
 };

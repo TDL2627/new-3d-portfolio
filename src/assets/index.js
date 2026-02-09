@@ -35,6 +35,7 @@ import metame from "./metame.png";
 import otb from "./projects/otb.png";
 import smallshop from "./projects/smallshop.png";
 import unitech from "./projects/unitech.png";
+import whatsapp from "./whatsapp.png";
 export {
   rokkit,
   otb,
@@ -70,4 +71,5 @@ export {
   codespace,
   code,
   metame,
+  whatsapp
 };

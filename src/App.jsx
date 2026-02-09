@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 //useEffect
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, FloatingWhatsAppButton } from "./components";
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +27,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <FloatingWhatsAppButton />
         <footer className="bg-black py-4 text-white">
         <div className="container mx-auto text-center">
           <p>&copy; {new Date().getFullYear()} Portfolio. All rights reserved.</p>
